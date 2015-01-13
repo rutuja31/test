@@ -1,0 +1,21 @@
+
+  <h1> {{title}} </h1>
+  <h2> {{info}}  </h2>
+  {{#each users}}
+    <p> 
+	  <a href="">{{name}}</a><br/>
+	  Username: {{username}}
+	  Password: {{password}}
+	  <br>
+	  <br>
+	</p>
+  {{/each}}	
+  <p> {{user.name}} and username is : {{user.username}} </p>
+  <footer> 
+     <p>
+    	 <a href="/"> Home </a>
+	     <a href="/About"> About! </a>
+	     <a href="/Login"> Login </a>
+	     <a href="/signin"> signin </a>
+	 </p>
+  </footer>
